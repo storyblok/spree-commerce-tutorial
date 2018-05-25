@@ -1,0 +1,14 @@
+<%=raw blok['_editable'] %>
+<div class="row">
+  <div class="col-sm-6">
+    <h2><%= blok['headline'] %></h2>
+    <div>
+      <%= blok['description'] %>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <% if !blok['image'].blank? %>
+      <img class="img-responsive" src="<%= blok['image'] %>" />
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<% content = get_story_by_slug('products/' + @product.slug) %>
+
+<% if content %>
+  <% content['data']['story']['content']['body'].each do |blok| %>
+    <%= render partial: "cms/components/#{blok['component']}", locals: { blok: blok } %>
+  <% end %>
+<% end %>
+
+<%=raw storyblok_js_bridge %>
