@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer maintained.
+
 # About
 
 This is the project code of the [Spree Commerce tutorial](https://www.storyblok.com/tp/headless-cms-spree-commerce) on how to add a headless CMS.
